@@ -1,0 +1,23 @@
+body {
+    background-color: #E9ECEF !important;
+    height: 100vh;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.list-group-item {
+    padding: 1rem 7rem !important;
+}
+
+.title {
+    color: purple;
+}
+
+.subtitle {
+    color: #f5bb00;
+}

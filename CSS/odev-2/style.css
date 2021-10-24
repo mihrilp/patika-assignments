@@ -1,0 +1,193 @@
+* {
+    padding: 0;
+    margin: 0;
+
+}
+
+body {
+    font-size: 14px;
+    font-family: arial, sans-serif;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+    background-color: #202124;
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    font: 13px/27px Roboto, RobotoDraft, Arial, sans-serif;
+    transition: box-shadow 250ms;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+    width: 15%;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-family: arial, sans-serif
+}
+
+.gmail {}
+
+.images {}
+
+.google-apps {
+    height: 25px;
+    width: 25px;
+    border-radius: 2px;
+    padding: 8px;
+    display: flex;
+    align-self: center;
+}
+
+.google-account {
+    padding: 8px;
+}
+
+.account-image {
+    background-size: 32px 32px;
+    border-radius: 50%;
+    position: relative;
+    height: 32px;
+    width: 32px;
+}
+
+.search {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 80px;
+}
+
+.logo {
+    max-height: 100%;
+    max-width: 100%;
+    width: auto;
+    margin-bottom: 30px;
+}
+
+.search-bar {
+    display: flex;
+    border: 1px solid #5f6368;
+    box-shadow: none;
+    border-radius: 24px;
+    height: 44px;
+    align-items: center;
+    padding: 5px 8px 0 16px;
+    max-width: 584px;
+    width: auto;
+    box-shadow: 0 1px 6px 0 #171717;
+}
+
+.search-icon {
+    height: 20px;
+    width: 20px;
+    margin-right: 3px;
+    align-items: center;
+    line-height: 24px;
+}
+
+.search-input {
+    background-color: transparent;
+    border: none;
+    color: #e8eaed;
+    outline: none;
+    height: 34px;
+    font-size: 16px;
+    width: 527px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.btn {
+    background-color: #303134;
+    color: #e8eaed;
+    box-shadow: 0 1px 3px rgba(23, 23, 23, 0.24);
+    border-radius: 4px;
+    height: 36px;
+    text-align: center;
+    cursor: pointer;
+    min-width: 54px;
+    padding: 0 16px;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    display: flex;
+    align-items: center;
+}
+
+.btn:hover {
+    border: 1px solid #5f6368;
+}
+
+.btn a {
+    background-color: #303134;
+}
+
+footer {
+    background-color: #171717;
+}
+
+.blackLine {
+    background-color: #171717;
+    padding: 15px 30px;
+    border-bottom: 1px solid #212327;
+    font-size: 14px;
+    color: rgba(255, 255, 255, .54);
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.subLinks {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.subLinks1 a,
+.subLinks2 a {
+    color: rgba(255, 255, 255, .54);
+}
+
+.subLinks1 a:hover,
+.subLinks2 a:hover {
+    text-decoration: underline;
+}
+
+.subLinks1 a {
+    margin-right: 15px;
+}
+
+.subLinks2 a {
+    margin-left: 15px;
+}
+
+.subText {
+    padding: 0 3px;
+    color: #bdc1c6;
+    display: inline-block;
+    line-height: 28px;
+    font-size: small;
+}
+
+.subText a {
+    color: #8ab4f8;
+}

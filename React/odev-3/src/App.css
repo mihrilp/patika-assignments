@@ -1,0 +1,15 @@
+.App {
+  width: 600px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+ul {
+  list-style: none;
+}
+
+
+ul>li{
+  border-radius: none;
+  color: black;
+}

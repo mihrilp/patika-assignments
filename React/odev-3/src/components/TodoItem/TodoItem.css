@@ -1,0 +1,55 @@
+.disCompleted{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.completed{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  text-decoration: line-through;
+  opacity: 0.80;
+}
+
+.icon:hover{
+    cursor: pointer;
+  }
+  
+  .check{
+    margin-right: 8px;
+  }
+
+  .icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  
+  .container {
+    display: block;
+    position: relative;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+
+  .container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+
+  .container input:checked+label {
+    text-decoration: line-through;
+}
+
+  .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
