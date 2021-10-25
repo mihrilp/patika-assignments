@@ -1,10 +1,18 @@
 import React from 'react'
 
-import { ExampleComponent } from 'vectorui'
+import { Button } from 'vectorui'
 import 'vectorui/dist/index.css'
 
 const App = () => {
-  return <ExampleComponent text="Create React Library Example 😄" />
+  return (
+    <>
+      <Button type='default'>default</Button>
+      <Button type='primary'>primary</Button>
+      <Button type='dashed'>dashed</Button>
+      <Button type='text'>text</Button>
+      <Button type='link'>link</Button>
+    </>
+  )
 }
 
 export default App

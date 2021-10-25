@@ -1,34 +1,26 @@
-import React, { PureComponent } from "react";
+import React, { PureComponent, useEffect } from "react";
 import PropTypes from "prop-types";
 import Clipboard from "clipboard";
 
 import EmojiResultRow from "../EmojiResultRow/EmojiResultRow";
 import "./EmojiResults.css";
 
-export default class EmojiResults extends PureComponent {
-  static propTypes = {
-    emojiData: PropTypes.array,
-  };
-
-  componentDidMount() {
-    this.clipboard = new Clipboard(".copy-to-clipboard");
-  }
-
-  componentWillUnmount() {
-    this.clipboard.destroy();
-  }
-
-  render() {
-    return (
-      <div className="component-emoji-results">
-        {this.props.emojiData.map((emojiData) => (
-          <EmojiResultRow
-            key={emojiData.title}
-            symbol={emojiData.symbol}
-            title={emojiData.title}
-          />
-        ))}
-      </div>
-    );
-  }
+/**
+ *
+ * @param {object} props
+ * @param {Array<unknown>} props.emojiData
+ *
+ */
+export default function EmojiResults({ emojiData }) {
+  return (
+    <div className="component-emoji-results">
+      {emojiData.map((emoji) => (
+        <EmojiResultRow
+          key={emoji.title}
+          symbol={emoji.symbol}
+          title={emoji.title}
+        />
+      ))}
+    </div>
+  );
 }
