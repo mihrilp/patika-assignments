@@ -1,6 +1,6 @@
 # patika-assignments
 
-I have collected all the assignments from the [patika.dev](https://app.patika.dev/) courses in this repo.
+In this repository, I've collected the projects from my [patika.dev] (https://app.patika.dev/paths) frontend path courses. 
 
 * HTML
 * CSS
