@@ -7,4 +7,3 @@ I have collected all the assignments from the [patika.dev](https://app.patika.de
 * Boostrap
 * JavaScript
 * React 
-* React Native
