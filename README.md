@@ -1,6 +1,12 @@
-# patika-assignments
+# Frontend Path
 
-In this repository, I've collected the projects from my [patika.dev](https://app.patika.dev/paths/react-native-ile-mobile-app-patikasi) React Native path courses. 
+In this repository, I've collected the projects from my [patika.dev](https://app.patika.dev/paths) frontend path courses. 
+
+* HTML
+* CSS
+* Boostrap
+* JavaScript
+* React 
 
 For my profile => [app.patika.dev/mihrilp](https://app.patika.dev/mihrilp) 
 
